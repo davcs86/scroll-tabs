@@ -13,7 +13,7 @@ var filter = require('lodash/collection/filter'),
 
 var inherits = require('inherits');
 
-var EventEmitter = require('events');
+var EventEmitter = require('events/events');
 
 var DEFAULT_OPTIONS = {
   scrollSymbolLeft: '‹',
