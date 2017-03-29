@@ -2,7 +2,7 @@
 
 > This component adds the functionality to scroll over a list of tabs.
 
-[![Build Status](https://travis-ci.org/bpmn-io/scroll-tabs.svg?branch=master)](https://travis-ci.org/bpmn-io/scroll-tabs)
+[![Build Status](https://travis-ci.org/davcs86/scroll-tabs.svg?branch=master)](https://travis-ci.org/davcs86/scroll-tabs)
 
 ScrollTabs adds scroll buttons on the left and right side of the tabs container
 if not all tabs are visible. It also adds a mouse wheel listener on the
