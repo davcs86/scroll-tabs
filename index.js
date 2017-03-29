@@ -8,8 +8,8 @@ var domify = require('min-dom/lib/domify'),
     domEvent = require('min-dom/lib/event'),
     domAttr = require('min-dom/lib/attr');
 
-var filter = require('lodash/collection/filter'),
-    assign = require('lodash/object/assign');
+var filter = require('lodash/collection').filter,
+    assign = require('lodash/object').assign;
 
 var inherits = require('inherits');
 
@@ -76,7 +76,7 @@ var DEFAULT_OPTIONS = {
  * scroller.update();
  *
  *
- * @param  {DOMElement} el
+ * @param  {DOMElement} $el
  * @param  {Object} options
  * @param  {Object} options.selectors
  * @param  {String} options.selectors.tabsContainer the container all tabs are contained in
@@ -105,6 +105,7 @@ inherits(ScrollTabs, EventEmitter);
 /**
  * Create a clickable scroll button
  *
+ * @param  {DOMElement} parentNode
  * @param {Object} options
  * @param {String} options.className
  * @param {String} options.label
