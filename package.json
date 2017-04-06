@@ -24,6 +24,7 @@
   ],
   "author": "bpmn.io <http://bpmn.io>",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "browserify": "^13.0.0",
     "chai": "^3.5.0",
@@ -38,9 +39,7 @@
     "phantomjs-prebuilt": "^2.1.4",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0",
-    "watchify": "^3.7.0"
-  },
-  "dependencies": {
+    "watchify": "^3.7.0",
     "events": "^1.1.0",
     "inherits": "^2.0.1",
     "lodash": "^4.17.4",
